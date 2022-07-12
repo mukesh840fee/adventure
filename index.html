@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <hi class="logo">ADVENTURE</hi>
+        <ul class="nav-links">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="btn.jpg" alt=""class="menu-btn">
+    </nav>
+     <header>
+        <div class="header-content">
+            <h2>Explore the colorfull world</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+     </header>
+     <section class="events">
+        <div class="title">
+            <h1>Upcomeing Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./tu1.jpg" alt="">
+                <h4>Everst Camp Trip</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima tenetur quasi qui.</p>
+            <a href="#" class="ctn">Lern MOre</a>
+            </div>
+            <div class="col">
+                <img src="./tu2.jpg" alt="">
+                <h4>Working Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima tenetur quasi qui.</p>
+            <a href="#" class="ctn">Lern MOre</a>
+            </div>
+        </div>
+     </section>
+     <section class="explore">
+        <div class="explore-content">
+         <h1>EXPLORE THE WORLD</h1>
+         <div class="line"></div>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores facere aperiam impedit fugiat.</P>
+        <a href="#" class="ctn">Learn More btn </a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col" >
+                <h1>UPCOMING TOURS AND DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum, . Dignissimos error, tempore doloribus quas fugiat hic expedita nisi qui eius mollitia repudiandae? Reprehenderit autem soluta dignissimos eius esse nihil sint? Vel vero non iure minima tenetur!</P>
+
+                 <a href="#" class="ctn" id="">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./tu2.jpg" alt="">
+                    <img src="./tu1.jpg" alt="">
+                    <img src="./tu3.jpg" alt="">
+                    <img src="./tu4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 fifth Avenue , Vill kariyatpur, Barhi,Hazaribagh,Jharkhand - (825405) | Phone no 8539075782 || Emaail: keshrimukesh000@gmail.com</p>
+        <p>Copyright e 2022 july Adventure</p>
+    </section>
+     <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+     </script>
+    
+</body>
+</html>
